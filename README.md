@@ -38,17 +38,19 @@ This app uses **only Python's standard library** — no external installations r
 
 ## 🚀 How to Run the App
 
-# 1️⃣ Clone or Download the Repository
+### 1️⃣ Clone or Download the Repository
 
-bash
-`git clone https://github.com/YourUsername/contact-book-app.git
-cd contact-book-app`
+```bash
+git clone https://github.com/YourUsername/contact-book-app.git
+cd contact-book-app
+```
 
 
-# 2️⃣ Run the Application
+### 2️⃣ Run the Application
 
-`bash
-`python contact_book.py
+```bash
+python contact_book.py
+```
 
 ---
 
