@@ -6,17 +6,40 @@ A lightweight desktop Contact Book application built using Python and Tkinter. T
 
 ## 🚀 Features
 
-- ➕ Add new contacts (name, phone, email)
-- ✏️ Update existing contacts
-- ❌ Delete contacts
-- 🔍 Search for specific contacts
-- 📜 View all saved contacts
-- 💾 JSON-based persistent storage
-- 🖥️ Simple, beginner-friendly GUI using Tkinter
+- ➕ **Add Contacts** (Name, Phone, Email)
+- 🔄 **Update Existing Contacts**
+- ❌ **Delete Contacts**
+- 🔍 **Search Contact by Name**
+- 📋 **View All Contacts**
+- 💾 **Persistent Storage** in a JSON file
+- 📑 **Clean and Minimal GUI** using Tkinter
 
 ---
 
+## 📦 Libraries Used
+
+This app uses **only Python's standard library** — no external installations required.
+
+- `tkinter` – GUI framework
+- `json` – For saving/loading contacts
+- `os` – For file checking
+
 ---
 
-## 📂 Project Structure
+## 🧠 How It Works
 
+- Contacts are stored in a file called contacts.json.
+- When you add, update, or delete a contact, changes are immediately saved to the file.
+- On app startup, the JSON file is loaded automatically.
+- You can search for contacts by name and see details like phone and email.
+- All contacts are displayed in a scrollable text box.
+
+---
+
+## 📁 Project Structure
+
+```bash
+ContactBookApp/
+├── contact_book.py        # Main Python script (this app)
+├── contacts.json          # Auto-generated storage file
+├── README.md              # Project documentation
