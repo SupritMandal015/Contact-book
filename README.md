@@ -41,7 +41,7 @@ This app uses **only Python's standard library** — no external installations r
 ### 1️⃣ Clone or Download the Repository
 
 ```bash
-git clone https://github.com/YourUsername/contact-book-app.git
+git clone https://github.com/SupritMandal015/Contact-book.git
 cd contact-book-app
 ```
 
