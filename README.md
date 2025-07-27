@@ -28,11 +28,26 @@ This app uses **only Python's standard library** — no external installations r
 
 ## 🧠 How It Works
 
-- Contacts are stored in a file called contacts.json.
+- Contacts are stored in a file called `contacts.json`.
 - When you add, update, or delete a contact, changes are immediately saved to the file.
 - On app startup, the JSON file is loaded automatically.
 - You can search for contacts by name and see details like phone and email.
 - All contacts are displayed in a scrollable text box.
+
+---
+
+## 🚀 How to Run the App
+
+# 1️⃣ Clone or Download the Repository
+
+```bash
+git clone https://github.com/YourUsername/contact-book-app.git
+cd contact-book-app
+
+# 2️⃣ Run the Application
+
+```bash
+python contact_book.py
 
 ---
 
